@@ -10,9 +10,9 @@ El proyecto consiste en un sistema automatizado de adivinanza de palabras que ge
 ## Estructura del Repositorio
 Para cumplir con los estandares de DevOps y asegurar una organizacion profesional, el repositorio se organiza de la siguiente manera:
 
-* `/docs`: Contiene la documentacion tecnica con los diagramas de flujo y diagramas de casos de uso UML que fundamentan la logica previa a la codificacion.
-* `/src`: Carpeta raiz del codigo fuente que incluye la arquitectura modular.
-* `README.md`: Documentacion general y especificaciones del sistema.
+ `/docs`: Contiene la documentacion tecnica con los diagramas de flujo y diagramas de casos de uso UML que fundamentan la logica previa a la codificacion.
+ `/src`: Carpeta raiz del codigo fuente que incluye la arquitectura modular.
+ `README.md`: Documentacion general y especificaciones del sistema.
 
 ## Especificaciones Detalladas de la Implementacion
 
@@ -28,18 +28,18 @@ Para cumplir con el principio de escalabilidad, se implemento una Capa de Datos 
 ## Analisis de Librerias Utilizadas
 Para este proyecto, se selecciono un conjunto de herramientas que garantizan la eficiencia y la independencia del sistema:
 
-* **random:** Esta libreria es fundamental para la logica de seleccion. Util para invocar el metodo `choice`, permitiendo que el sistema elija una palabra de forma aleatoria desde la carga de datos externa, asegurando que cada partida sea una experiencia nueva.
-* **os (Operating System):** Esta libreria sirve para gestionar la comunicacion con el sistema operativo del ordenador. Es vital para construir rutas de archivos relativas (path handling), asegurando que el programa encuentre el archivo `palabras.txt` sin importar en que carpeta se ejecute el proyecto.
-* **ahorcado (Libreria Personalizada):** Es una biblioteca de creacion propia que actua como un repositorio de recursos graficos. Al encapsular el arte ASCII en este modulo, logro un codigo mas limpio y profesional en el archivo principal.
+ **random:** Esta libreria es fundamental para la logica de seleccion. Util para invocar el metodo `choice`, permitiendo que el sistema elija una palabra de forma aleatoria desde la carga de datos externa, asegurando que cada partida sea una experiencia nueva.
+ **os (Operating System):** Esta libreria sirve para gestionar la comunicacion con el sistema operativo del ordenador. Es vital para construir rutas de archivos relativas (path handling), asegurando que el programa encuentre el archivo `palabras.txt` sin importar en que carpeta se ejecute el proyecto.
+ **ahorcado (Libreria Personalizada):** Es una biblioteca de creacion propia que actua como un repositorio de recursos graficos. Al encapsular el arte ASCII en este modulo, logro un codigo mas limpio y profesional en el archivo principal.
 
 ## Arquitectura de Software: Modelo de 3 Capas
 Este documento esta diseñado en un sistema de **Modelo de 3 Capas**, un estandar en la ingenieria para separar responsabilidades:
 
 
 
-1. **Capa de Presentacion:** Es la encargada de la interaccion directa. Aqui se gestiona el renderizado de la "mascara" (los guiones bajos de la palabra) y la proyeccion de las imagenes ASCII importadas del modulo ahorcado. Su funcion es transformar datos abstractos en una interfaz comprensible.
-2. **Capa de Logica de Negocio:** Ubicada en el motor principal, es donde reside la "inteligencia" del juego. Procesa las reglas, valida si una letra pertenece a la secuencia y decide el destino del flujo (acierto o perdida de vida).
-3. **Capa de Datos:** Es el cimiento del sistema. Se encarga de la persistencia y recuperacion de informacion desde el archivo de texto. Al separar los datos de la logica, garantizo que la informacion sea independiente del comportamiento del software.
+#1. **Capa de Presentacion:** Es la encargada de la interaccion directa. Aqui se gestiona el renderizado de la "mascara" (los guiones bajos de la palabra) y la proyeccion de las imagenes ASCII importadas del modulo ahorcado. Su funcion es transformar datos abstractos en una interfaz comprensible.
+#2. **Capa de Logica de Negocio:** Ubicada en el motor principal, es donde reside la "inteligencia" del juego. Procesa las reglas, valida si una letra pertenece a la secuencia y decide el destino del flujo (acierto o perdida de vida).
+#3. **Capa de Datos:** Es el cimiento del sistema. Se encarga de la persistencia y recuperacion de informacion desde el archivo de texto. Al separar los datos de la logica, garantizo que la informacion sea independiente del comportamiento del software.
 
 ---
 
@@ -55,4 +55,4 @@ Para iniciar el juego, navegue hasta la carpeta del proyecto en su terminal y ej
 ---
 
 ## Autor
-**Gabriel Andres Guaycha Espinosa** Oficial de la Marina del Ecuador | Estudiante de Ingenieria en IA - UIDE
+**Gabriel Andres Guaycha Espinosa**
