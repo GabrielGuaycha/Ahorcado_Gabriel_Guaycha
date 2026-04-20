@@ -55,3 +55,4 @@ Para iniciar el juego, navegue hasta la carpeta del proyecto en su terminal y ej
 
 ## Autor
 ## **Gabriel Andres Guaycha Espinosa**
+## **DOMINGO 19 ABRIL 2026**
