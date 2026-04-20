@@ -1,4 +1,4 @@
-from ascii_libreria import ESTADOS_AHORCADO
+from Ahorcado import ESTADOS_AHORCADO
 import random
 import os 
 import random

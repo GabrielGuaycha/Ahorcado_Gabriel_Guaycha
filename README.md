@@ -11,8 +11,7 @@ El proyecto consiste en un sistema automatizado de adivinanza de palabras que ge
 Para cumplir con los estandares de DevOps y asegurar una organizacion profesional, el repositorio se organiza de la siguiente manera:
 
  `/docs`: Contiene la documentacion tecnica con los diagramas de flujo y diagramas de casos de uso UML que fundamentan la logica previa a la codificacion.
- `/src`: Carpeta raiz del codigo fuente que incluye la arquitectura modular.
- `README.md`: Documentacion general y especificaciones del sistema.
+ `/src`: Carpeta raiz del codigo fuente que incluye la arquitectura modular. `README.md`: Documentacion general y especificaciones del sistema.
 
 ## Especificaciones Detalladas de la Implementacion
 
@@ -55,4 +54,4 @@ Para iniciar el juego, navegue hasta la carpeta del proyecto en su terminal y ej
 ---
 
 ## Autor
-**Gabriel Andres Guaycha Espinosa**
+## **Gabriel Andres Guaycha Espinosa**
